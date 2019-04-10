@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Component test page</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<ion-list>
+  <ion-item>Slide Button test</ion-item>
+  
+  <slide-button
+    #authSlideBtn
+    buttontext="Autorizar"
+    helpertext="Deslice para autorizar"
+    [instructions]="slideBtnInstructions"
+    boundary=400
+    [disabled]="!slideBtnActive"
+    (click)="activateSlideBtn()"
+    (touchstart)="activateSlideBtn()"
+    (onSlideReady)="slideReady($event)"></slide-button>
+</ion-list>
+
+</ion-content>

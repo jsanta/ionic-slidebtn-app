@@ -1,0 +1,7 @@
+{
+  "name": "slideBtnApp",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
