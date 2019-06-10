@@ -1,0 +1,3 @@
+[submodule "lib/Stencil-SlideButton"]
+	path = lib/Stencil-SlideButton
+	url = git@github.com:jsanta/Stencil-SlideButton.git
